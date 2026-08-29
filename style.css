@@ -10,16 +10,17 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Segoe UI", Arial, sans-serif;
-  background: url("img/sonic cd banner.gif") center/cover no-repeat;
+  background: url("img/sonic_banner_projeto.gif") center/cover no-repeat;
 }
 
 .card {
-  background: #ffffff;
+  background: #f9fafa62;
   width: 320px;
   padding: 32px 24px;
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  background: url("img/space_gif.gif");
 }
 
 .avatar {
@@ -28,7 +29,7 @@ body {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 16px;
-  border: 3px solid #0000be;
+  border: 3px solid #1200af;
 }
 
 h1 {
@@ -37,14 +38,15 @@ h1 {
 }
 
 .cargo {
-  color: #2052f5;
+  color: #0f0f0fe3;
   font-weight: 600;
+  font-size: 0.93rem;
   margin-bottom: 12px;
 }
 
 .bio {
-  color: #5b6472;
-  font-size: 0.9rem;
+  color: #0d0e0f;
+  font-size: 0.85rem;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -59,8 +61,8 @@ h1 {
 .links a {
   display: block;
   text-decoration: none;
-  background: #0000FF;
-  color: #ffffff;
+  background: #031cacdc;
+  color: #dfdfdf;
   padding: 10px 16px;
   border-radius: 30px;
   font-weight: 600;
@@ -69,7 +71,7 @@ h1 {
 }
 
 .links a:hover {
-  background: #0000DE;
+  background: #151586;
   transform: translateY(-2px);
 }
 
